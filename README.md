@@ -1,6 +1,8 @@
 george
 ======
 
+# IN DEVELOPMENT
+
 George is kinda like an old school switch board operator. He keeps an eye on where things are from the point of view of a node.
 
 A node sits in a different environment to any form of service discovery and is in the best position to make decisions about which of the services it knows about it can connect to. 
