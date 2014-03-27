@@ -14,3 +14,18 @@ This is a separate solution to the redis server being generally unavailable - th
 
 The main point is that between multiple networks, and even nodes, you can never guarantee the environment is the same as a central controller. A service one node is having trouble with, might be generally available to others - simply switching to alternate endpoints might be the simplest way of solving a temporary network glitch.
 
+
+## Example
+```go
+package main
+
+import (
+	"./george"
+)
+
+func main() {
+
+	george.Start()
+
+}
+```
