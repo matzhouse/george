@@ -20,7 +20,7 @@ The main point is that between multiple networks, and even nodes, you can never 
 package main
 
 import (
-	"./george"
+	"github.com/matzhouse/george/george"
 )
 
 func main() {
